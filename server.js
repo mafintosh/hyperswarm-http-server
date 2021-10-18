@@ -49,3 +49,9 @@ function freePort () {
     })
   })
 }
+
+process.once('SIGINT', function () {
+  node.destroy().then(function () {
+    process.exit()
+  })
+})
