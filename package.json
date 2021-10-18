@@ -1,6 +1,6 @@
 {
   "name": "hyperswarm-http-server",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Simply tool that proxies http-server over Hyperswarm",
   "main": "server.js",
   "bin": {
