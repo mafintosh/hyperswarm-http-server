@@ -1,0 +1,26 @@
+{
+  "name": "hyperswarm-http-server",
+  "version": "0.0.0",
+  "description": "Simply tool that proxies http-server over Hyperswarm",
+  "main": "server.js",
+  "bin": {
+    "hyperswarm-http-server": "./server.js"
+  },
+  "dependencies": {
+    "@hyperswarm/dht": "next",
+    "bind-easy": "^1.0.2",
+    "http-server": "^13.0.2",
+    "pump": "^3.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/hyperswarm-http-server.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/hyperswarm-http-server/issues"
+  },
+  "homepage": "https://github.com/mafintosh/hyperswarm-http-server"
+}
